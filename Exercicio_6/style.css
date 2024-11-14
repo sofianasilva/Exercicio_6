@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulario {
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px;
+}
+
+input[type=text] {
+    border: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px;
+    outline: 0;
+    height: auto;
+    box-shadow: 0 1px 0;
+    width: 96%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+.dividade,
+.checkbox {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.botao {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.numero {
+    width: 20px;
+    height: 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

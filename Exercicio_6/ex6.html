@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<div>
+    <div>
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulário com CSS</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+    </div>
+
+    <div>
+
+        <body>
+            <form class="formulario">
+                <h1>Cadastrar usuário</h1>
+
+                <div>
+                    <h3><span class="numero">1</span> Dados pessoais</h3>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email">
+
+                    <label for="senha">Senha:</label>
+                    <input type="text" id="senha" name="senha">
+
+                    <label for="confirmar">Confirmar senha:</label>
+                    <input type="text" id="confirmar" name="confirmar">
+
+
+                    <label>Idade:</label>
+                    <div class="dividade">
+                        <input type="radio" id="acima17" name="idade" value="Acima17">
+                        <label for="acima17">Acima de 17</label>
+                        <input type="radio" id="abaixo17" name="idade" value="Abaixo17">
+                        <label for="abaixo17">Abaixo de 17</label>
+                    </div>
+                </div>
+
+                <div>
+                    <h3><span class="numero">2</span> Perfil</h3>
+                    <label for="descricao">Descrição:</label>
+                    <textarea id="descricao" name="descricao" rows="4" cols="37"></textarea>
+
+                    <label for="perfil">Perfil de trabalho:</label>
+                    <select name="perfil" id="name">
+                        <option value="front">Developer Front-End</option>
+                        <option value="back">Developer Back-End</option>
+                        <option value="full"> Developer Full-Stack</option>
+                    </select>
+
+
+                    <label>Interesses:</label>
+                    <div class="checkbox">
+                        <input type="checkbox" id="interesse1" name="interesse1" value="Programador">
+                        <label for="interesse1">Programador</label>
+
+                        <input type="checkbox" id="interesse2" name="interesse2" value="Desing">
+                        <label for="interesse2">Desing</label>
+
+                        <input type="checkbox" id="interesse3" name="interesse3" value="Analista">
+                        <label for="interesse3">Analista</label><br>
+                        </fieldset>
+                    </div>
+
+                    <button type="submit" class="botao">Enviar dados</button>
+                </div>
+            </form>
+        </body>
+    </div>
+
+</div>
+
+</html>
